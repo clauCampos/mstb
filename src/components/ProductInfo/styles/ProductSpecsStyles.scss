@@ -1,0 +1,41 @@
+@use '../../../styles/_variables' as *;
+
+.specs-item {
+  display: flex;
+  gap: 12px;
+  padding: 16px 0;
+  border-bottom: 0.5px solid $black;
+}
+
+.first-specs-item {
+  border-top: 0.5px solid $black;
+}
+
+.specs-item-title {
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: uppercase;
+  width: 150px;
+}
+
+.specs-item-value {
+  font-size: 12px;
+  font-weight: 300;
+  width: 199px;
+}
+
+@media (min-width: 834px) {
+  .specs-item-title {
+    min-width: 300px;
+  }
+
+  .specs-item-value {
+    width: 406px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .specs-item-value {
+    width: 852px;
+  }
+}

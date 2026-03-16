@@ -1,0 +1,63 @@
+@use './_variables' as *;
+
+:root {
+  --black-titanium: #62605f;
+  --violet-titanium: #4d4e5f;
+  --gris-titanium: #aca49b;
+  --yellow-titanium: #f0e1b9;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  background-color: $white;
+  color: $black;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2,
+h3 {
+  font-weight: 300;
+}
+
+p {
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  color: $black;
+  cursor: pointer;
+}
+
+button {
+  all: unset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+.error-text,
+.not-found-text {
+  font-size: 12px;
+  font-weight: 300;
+  color: $black;
+  padding: 24px 0;
+}

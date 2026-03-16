@@ -1,0 +1,46 @@
+@use '../../../../styles/_variables' as *;
+
+.header-container {
+  display: flex;
+  position: fixed;
+  top: 0;
+  z-index: 50;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 16px;
+  width: 100%;
+  background-color: $white;
+  height: 80px;
+}
+
+.logo-icon {
+  fill: $black;
+}
+
+.cart-counter-link {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: rap;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 4px 0;
+}
+
+.basket-icon {
+  width: 18px;
+  height: 18px;
+}
+
+@media (min-width: 834px) {
+  .header-container {
+    padding: 24px 40px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .header-container {
+    padding: 0 100px;
+  }
+}

@@ -1,0 +1,28 @@
+import type { IconsTypes } from './types/IconsTypes'
+
+export default function BasketFullIcon({
+  className,
+  fill = 'currentColor',
+  title = 'Basket full icon',
+}: IconsTypes) {
+  return (
+    <svg
+      width='13'
+      height='16'
+      viewBox='0 0 13 16'
+      fill={fill}
+      className={className}
+      xmlns='http://www.w3.org/2000/svg'
+      role='img'
+      aria-label={title}
+      data-testid={title}
+    >
+      <title>{title}</title>
+      <path
+        fillRule='evenodd'
+        clipRule='evenodd'
+        d='M8.47059 0H3.76471V3.76471H0V16H12.2353V3.76471H8.47059V0ZM7.52941 3.76471V7.05882H8.47059V3.76471H7.52941ZM4.70588 3.76471V7.05882H3.76471V3.76471H4.70588ZM4.70588 3.76471H7.52941V0.941176H4.70588V3.76471Z'
+      />
+    </svg>
+  )
+}

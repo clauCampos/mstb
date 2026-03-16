@@ -1,0 +1,63 @@
+@use '../../../styles/_variables' as *;
+
+.search-bar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  gap: 12px;
+  width: 100%;
+}
+
+.input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  gap: 12px;
+  border-bottom: 0.5px solid $black;
+  width: 100%;
+}
+
+.search-input {
+  border: 0;
+  outline: none;
+  display: flex;
+  padding: 0 0 8px 0;
+  background: $white;
+  color: $black;
+  width: 100%;
+}
+
+.close-btn-wrapper {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.close-btn {
+  width: 20px;
+  height: 19px;
+}
+
+.close-btn-icon {
+  fill: $black;
+  width: 7.71px;
+  height: 7.32px;
+}
+
+.filters-list-close-btn {
+  text-transform: uppercase;
+}
+
+@media (min-width: 834px) {
+  .search-bar-container {
+    padding: 12 40px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .search-bar-container {
+    padding: 12 100px;
+  }
+}

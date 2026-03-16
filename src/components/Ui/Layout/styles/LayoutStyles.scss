@@ -1,0 +1,7 @@
+@use '../../../../styles/_variables' as *;
+
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

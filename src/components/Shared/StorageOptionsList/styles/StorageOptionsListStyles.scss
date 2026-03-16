@@ -1,0 +1,59 @@
+@use '../../../../styles/_variables' as *;
+
+.storage-options-list {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.storage-options-item,
+.storage-options-item-selected {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 48px;
+  padding: 24px;
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  cursor: pointer;
+  width: 98px;
+}
+
+.storage-options-item {
+  border-top: 1px solid $light-grey;
+  border-right: 1px solid $light-grey;
+  border-bottom: 1px solid $light-grey;
+  border-left: 1px solid $white;
+}
+
+.storage-options-item:hover {
+  border-top: 1px solid $black;
+  border-right: 1px solid $black;
+  border-bottom: 1px solid $black;
+  border-left: 1px solid $black;
+}
+
+.storage-options-item:first-child {
+  border-left: 1px solid $light-grey;
+}
+
+.storage-options-item:first-child:hover {
+  border-left: 1px solid $black;
+}
+
+.storage-options-item-selected {
+  border-top: 1px solid $black;
+  border-right: 1px solid $black;
+  border-bottom: 1px solid $black;
+  border-left: 1px solid $white;
+}
+
+.storage-options-item-selected:first-child {
+  border-left: 1px solid $black;
+}
+
+.storage-options-item.selected + .storage-options-item:hover {
+  border-left: 1px solid $white;
+}

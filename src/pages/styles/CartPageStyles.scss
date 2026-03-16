@@ -1,0 +1,21 @@
+@use '../../styles/_variables' as *;
+
+.page-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 393px;
+}
+
+@media (min-width: 834px) {
+  .page-main-container {
+    width: 834px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .page-main-container {
+    width: 1920px;
+  }
+}

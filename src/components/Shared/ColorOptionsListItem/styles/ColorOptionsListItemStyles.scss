@@ -1,0 +1,15 @@
+@use '../../../../styles/variables' as *;
+
+.color-btns {
+  width: 24px;
+  height: 24px;
+  border: 1px solid $light-grey;
+}
+
+.color-btns:hover {
+  border: 1px solid $black;
+}
+
+.color-btns.selected {
+  border: 1px solid $black;
+}

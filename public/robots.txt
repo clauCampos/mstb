@@ -1,0 +1,6 @@
+# robots.txt for exercise/demo app
+# User-agent: *
+# Allow: /
+# Disallow: /cart
+# Disallow: /checkout
+# Sitemap: https://your-domain.com/sitemap.xml

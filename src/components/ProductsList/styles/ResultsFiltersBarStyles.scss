@@ -1,0 +1,76 @@
+.results-filters-modal-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.results-filter-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  height: 43.5px;
+}
+
+.counter-text,
+.filter-btn {
+  font-size: 12px;
+  text-transform: uppercase;
+  text-wrap: nowrap;
+}
+
+.filters-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 4px;
+  min-height: 24px;
+  width: 100%;
+}
+
+.filters-options-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.filters-list-close-btn {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.color-options-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 12px;
+  height: 43.5px;
+}
+
+.color-options-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.color-options-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+
+.color-name-text {
+  font-size: 10px;
+}
+
+.selected-color-count {
+  font-size: 12px;
+  text-transform: uppercase;
+}

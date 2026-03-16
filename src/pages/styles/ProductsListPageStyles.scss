@@ -1,0 +1,17 @@
+@use '../../styles/_variables' as *;
+
+.products-list-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 0 0;
+  gap: 24px;
+  min-width: 100vw;
+  margin: 80px 0 0 0;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .products-list-page-container {
+    padding: 48px 0 0;
+  }
+}
